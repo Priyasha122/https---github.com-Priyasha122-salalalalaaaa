@@ -25,7 +25,7 @@ include("../includes/db_conn.php");
         <div id="loginform" class="login-f">
             <form id="login-form" action="rmv_login_auth.php" method="post">
                 <input class="login_input" type="text" name="email" placeholder="Enter your E-mail" />
-                <input class="login_input" type="text" name="pass" placeholder="Password" />
+                <input class="login_input" type="password" name="pass" placeholder="Password" />
                 <input type="submit" name="login" class="login-btn" value="LOGIN" />
             </form>
         </div>
